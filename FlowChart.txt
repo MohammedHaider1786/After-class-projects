@@ -1,0 +1,48 @@
+Oval
+Start
+
+Rectangle
+Wake up
+
+Rectangle
+Brush teeth and freshen up
+
+Rectangle
+Take a bath
+
+Rectangle
+Have breakfast
+
+Rectangle
+Go to school / college
+
+Rectangle
+Attend classes
+
+Rectangle
+Return home
+
+Rectangle
+Have lunch
+
+Rectangle
+Rest for some time
+
+Rectangle
+Study / Do homework
+
+Diamond (Decision)
+Homework completed?
+
+Yes → Continue
+
+No → Go back to Study / Do homework
+
+Rectangle
+Have dinner
+
+Rectangle
+Go to sleep
+
+Oval
+End
