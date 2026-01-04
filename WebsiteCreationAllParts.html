@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FOODIES Website</title>
+
+    <style>
+        /* ---------- General Styling ---------- */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        /* ---------- Navigation Bar ---------- */
+        nav {
+            background-color: #222;
+            padding: 15px;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            color: #f39c12;
+        }
+
+        /* ---------- Banner Section ---------- */
+        .banner {
+            background: url('https://via.placeholder.com/1200x400') no-repeat center;
+            background-size: cover;
+            height: 400px;
+            color: white;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 36px;
+            font-weight: bold;
+        }
+
+        /* ---------- Section & Portfolio ---------- */
+        .section {
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .portfolio {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            width: 250px;
+            margin: 15px;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            overflow: hidden;
+        }
+
+        .card img {
+            width: 100%;
+            height: 150px;
+        }
+
+        .card p {
+            padding: 10px;
+        }
+
+        /* ---------- Social Media Section ---------- */
+        .social-media {
+            background-color: #f8f8f8;
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        .social-icons a {
+            display: inline-block;
+            margin: 10px;
+            padding: 10px 18px;
+            background-color: #d35400;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .social-icons a:hover {
+            background-color: #a84300;
+        }
+
+        /* ---------- Footer ---------- */
+        footer {
+            background-color: #222;
+            color: #ddd;
+            padding: 30px 20px 10px;
+        }
+
+        .footer-container {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        .footer-box {
+            min-width: 250px;
+            margin-bottom: 20px;
+        }
+
+        .footer-bottom {
+            border-top: 1px solid #444;
+            text-align: center;
+            padding-top: 10px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- ================= PART 1 ================= -->
+    <!-- Layout, Navigation Bar, Banner Image -->
+
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="banner">
+        Welcome to Our Restaurant
+    </div>
+
+    <!-- ================= PART 2 ================= -->
+    <!-- Section & Portfolio -->
+
+    <div class="section">
+        <h2>Our Special Dishes</h2>
+        <p>Fresh, tasty, and made with love</p>
+
+        <div class="portfolio">
+            <div class="card">
+                <img src="Kickin-Grilled-Chicken-Legs-Charcoal.jpg">
+                <p>Grilled Chicken</p>
+            </div>
+
+            <div class="card">
+                <img src="download.jpg">
+                <p>Pizza Special</p>
+            </div>
+
+            <div class="card">
+                <img src="download (1).jpg">
+                <p>Delicious Burger</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- ================= PART 3 ================= -->
+    <!-- Social Media & Footer -->
+
+    <section class="social-media">
+        <h2>Connect With Us</h2>
+        <div class="social-icons">
+            <a href="#">Facebook</a>
+            <a href="#">Instagram</a>
+            <a href="#">Twitter</a>
+            <a href="#">WhatsApp</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-box">
+                <h3>About Us</h3>
+                <p>We serve quality food with excellent service.</p>
+            </div>
+
+            <div class="footer-box">
+                <h3>Contact</h3>
+                <p>+92 300 1234567</p>
+                <p>FOODIES@gmail.com</p>
+            </div>
+
+            <div class="footer-box">
+                <h3>Opening Hours</h3>
+                <p>Mon – Sun: 10 AM – 11 PM</p>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            © 2026 Restaurant Website
+        </div>
+    </footer>
+
+</body>
+</html>
