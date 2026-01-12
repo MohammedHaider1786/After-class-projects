@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pagination Styles</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="Style2.CSS">
+</head>
+<body class="p-4">
+
+    <h2>1. Simple Pagination (HTML + CSS)</h2>
+    <div class="simple-pagination">
+        <a href="#">Prev</a>
+        <a href="#" class="active">1</a>
+        <a href="#">2</a>
+        <a href="#">3</a>
+        <a href="#">Next</a>
+    </div>
+
+    <hr>
+
+    <h2>2. Bootstrap Default Pagination</h2>
+    <nav>
+        <ul class="pagination">
+            <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+            <li class="page-item active"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item"><a class="page-link" href="#">Next</a></li>
+        </ul>
+    </nav>
+
+    <hr>
+
+    <h2>3. Bootstrap Colored Pagination</h2>
+    <nav>
+        <ul class="pagination pagination-lg">
+            <li class="page-item"><a class="page-link bg-success text-white" href="#">1</a></li>
+            <li class="page-item"><a class="page-link bg-warning text-dark" href="#">2</a></li>
+            <li class="page-item"><a class="page-link bg-danger text-white" href="#">3</a></li>
+        </ul>
+    </nav>
+
+    <hr>
+
+    <h2>4. Rounded Pagination (Custom CSS + Bootstrap)</h2>
+    <nav>
+        <ul class="pagination custom-pagination">
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item active"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+        </ul>
+    </nav>
+
+</body>
+</html>
